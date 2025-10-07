@@ -1,16 +1,46 @@
-# React + Vite
+# 🚀 Hero-AppLaunch
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Hero-AppLaunch** is a modern and responsive landing page designed to showcase productive and innovative mobile applications.  
+It focuses on clean UI, app promotion, and key stats that highlight success and engagement.
 
-Currently, two official plugins are available:
+## 📖 Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Hero-AppLaunch provides a sleek and professional interface where users can explore app features, download links, and performance metrics.  
+The design emphasizes simplicity, clarity, and responsiveness—making it ideal for startups, developers, or digital product showcases.
 
-## React Compiler
+### ✨ Features
+- Modern, clean, and responsive layout  
+- App download buttons (Google Play & App Store)  
+- Section for total downloads, reviews, and active apps  
+- Smooth typography and well-aligned sections  
+- Built for professional presentation and branding  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
+- **HTML5**  
+- **CSS3**  
+- **Tailwind CSS**  
+- **DaisyUI**  
+- **JavaScript** (for interactivity)  
 
-## Expanding the ESLint configuration
+## 💡 Purpose
+To create a visually engaging and professional landing page for promoting mobile apps and boosting brand visibility.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧩 Design File
+You can explore the Figma design here:  
+📁 **Hero IO.fig**
+
+---
+
+## 📸 Preview
+(Include screenshots or GIFs of your final landing page here once developed.)
+
+---
+
+## 🧑‍💻 Author
+**Mst. Mahfuza Akter**  
+[LinkedIn](https://www.linkedin.com/in/mstmahfuzaakter)
+
+---
+
