@@ -1,0 +1,398 @@
+[
+  {
+    "image": "https://example.com/icons/socialwave.png",
+    "title": "SocialWave",
+    "companyName": "WaveLabs Inc.",
+    "id": 1,
+    "description": "SocialWave is a full-featured social networking app that enables you to post updates, share photos and videos, comment, reply, and follow trending topics. With built-in AI suggestions for content, privacy controls, and real-time notification feeds, SocialWave aims to keep you connected effortlessly.",
+    "size": 45,
+    "reviews": 12000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3800 },
+      { "name": "5 star", "count": 7600 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/fittrack.png",
+    "title": "FitTrack",
+    "companyName": "HealthHub",
+    "id": 2,
+    "description": "FitTrack helps you log your workouts, monitor heart rate, track steps, set fitness goals, and view weekly/monthly performance charts. It also provides personalized workout plans and dietary suggestions based on your profile and progress.",
+    "size": 58,
+    "reviews": 8900,
+    "ratingAvg": 4.6,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 4900 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/shoply.png",
+    "title": "Shoply",
+    "companyName": "UrbanTech",
+    "id": 3,
+    "description": "Shoply is your one-stop shopping companion: browse products, compare prices, read reviews, get real-time deals, and make seamless in-app purchases. With smart suggestions and wishlist tracking, you’ll never miss a sale.",
+    "size": 73,
+    "reviews": 32000,
+    "ratingAvg": 4.1,
+    "downloads": 12000000,
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 5600 },
+      { "name": "4 star", "count": 9500 },
+      { "name": "5 star", "count": 12500 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/learnhub.png",
+    "title": "LearnHub",
+    "companyName": "EduSoft",
+    "id": 4,
+    "description": "LearnHub offers a wide catalog of online courses in programming, design, business, and more. You can watch lectures offline, take quizzes, interact with instructors, and earn certifications that you can share with others.",
+    "size": 110,
+    "reviews": 5400,
+    "ratingAvg": 4.8,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1400 },
+      { "name": "5 star", "count": 3300 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/musiczone.png",
+    "title": "MusicZone",
+    "companyName": "Soundify",
+    "id": 5,
+    "description": "MusicZone lets you stream millions of tracks, discover curated playlists, follow artists, and create your own mixes. With offline download support and high-fidelity audio modes, it’s made for true music lovers.",
+    "size": 92,
+    "reviews": 27000,
+    "ratingAvg": 4.5,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 7100 },
+      { "name": "5 star", "count": 16300 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/photofix.png",
+    "title": "PhotoFix",
+    "companyName": "PixelLabs",
+    "id": 6,
+    "description": "PhotoFix is an intuitive photo editing app with AI-powered filters, blemish removal, background blur, overlays, and artistic effects. Export in multiple resolutions and share directly to social media.",
+    "size": 67,
+    "reviews": 9100,
+    "ratingAvg": 4.2,
+    "downloads": 4100000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 4600 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/gameverse.png",
+    "title": "GameVerse",
+    "companyName": "NovaPlay",
+    "id": 7,
+    "description": "GameVerse showcases trending mobile games across genres. You can browse reviews, watch video previews, challenge friends, and access leaderboards. It also supports in-game streaming and community forums.",
+    "size": 125,
+    "reviews": 65000,
+    "ratingAvg": 4.4,
+    "downloads": 15000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 9000 },
+      { "name": "4 star", "count": 22000 },
+      { "name": "5 star", "count": 27000 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/travelmate.png",
+    "title": "TravelMate",
+    "companyName": "TripBuddy Co.",
+    "id": 8,
+    "description": "TravelMate helps you plan itineraries, book flights or hotels, get local guides, and view offline maps. It includes live travel alerts, currency converters, and travel journals to log your experiences.",
+    "size": 80,
+    "reviews": 4000,
+    "ratingAvg": 4.7,
+    "downloads": 1600000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 1100 },
+      { "name": "5 star", "count": 2200 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/newsflow.png",
+    "title": "NewsFlow",
+    "companyName": "InfoStream Ltd.",
+    "id": 9,
+    "description": "NewsFlow brings you up-to-date news articles from trusted sources worldwide. Customize your feed by topics, save articles for offline reading, and get push alerts for breaking stories.",
+    "size": 48,
+    "reviews": 7200,
+    "ratingAvg": 4.0,
+    "downloads": 2900000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 1900 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/budgetly.png",
+    "title": "Budgetly",
+    "companyName": "FinSmart",
+    "id": 10,
+    "description": "Budgetly helps you track income and expenses, categorize spending, set monthly budgets, and monitor savings goals. The app also gives financial insights, reminders, and trend graphs over time.",
+    "size": 61,
+    "reviews": 15000,
+    "ratingAvg": 4.6,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 4800 },
+      { "name": "5 star", "count": 8300 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/taskhero.png",
+    "title": "TaskHero",
+    "companyName": "Prodify",
+    "id": 11,
+    "description": "TaskHero provides task management, project boards, team collaboration, reminders, and progress tracking. You can assign tasks, integrate with calendars, and get analytics for productivity.",
+    "size": 72,
+    "reviews": 10800,
+    "ratingAvg": 4.5,
+    "downloads": 3200000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 3300 },
+      { "name": "5 star", "count": 5400 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/cookmate.png",
+    "title": "CookMate",
+    "companyName": "YumLabs",
+    "id": 12,
+    "description": "CookMate offers thousands of recipes, step-by-step cooking guides, video tutorials, shopping lists, and nutritional info. Save favorite recipes, adjust serving sizes, and share with others.",
+    "size": 89,
+    "reviews": 6100,
+    "ratingAvg": 4.3,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 1700 },
+      { "name": "5 star", "count": 2700 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/medicare.png",
+    "title": "MediCare",
+    "companyName": "HealthFirst",
+    "id": 13,
+    "description": "MediCare allows you to book doctor appointments, view medical records, get medicine reminders, chat with professionals, and monitor vital signs over time via integrations with wearable devices.",
+    "size": 77,
+    "reviews": 4800,
+    "ratingAvg": 4.4,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1400 },
+      { "name": "5 star", "count": 2300 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/petzone.png",
+    "title": "PetZone",
+    "companyName": "PawWorks",
+    "id": 14,
+    "description": "PetZone helps pet owners with care guides, vet appointments, adoption listings, pet health tracking, and community for pet lovers. Share pet photos, log feeding times, and get reminders.",
+    "size": 54,
+    "reviews": 2200,
+    "ratingAvg": 4.5,
+    "downloads": 870000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1050 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/langflow.png",
+    "title": "LangFlow",
+    "companyName": "LinguaTech",
+    "id": 15,
+    "description": "LangFlow is an AI-powered language learning app that uses voice conversation practice, vocabulary games, grammar lessons, and immersive challenges to help you master new languages faster.",
+    "size": 63,
+    "reviews": 8300,
+    "ratingAvg": 4.7,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1900 },
+      { "name": "5 star", "count": 5400 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/weathergo.png",
+    "title": "WeatherGo",
+    "companyName": "SkyNet Systems",
+    "id": 16,
+    "description": "WeatherGo provides minute-by-minute forecasts, radar maps, severe weather alerts, hourly and 10-day predictions, and widget support so you always know what’s coming your way.",
+    "size": 49,
+    "reviews": 7200,
+    "ratingAvg": 4.1,
+    "downloads": 3100000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 2100 }
+    ]
+  },
+  {
+    "image": "https://example stukken/icons/noteflow.png",
+    "title": "NoteFlow",
+    "companyName": "ProdStream",
+    "id": 17,
+    "description": "NoteFlow syncs your notes across devices, supports rich text editing, image insertion, tagging, reminders, and collaboration with others. Organize your thoughts seamlessly and access them offline as well.",
+    "size": 37,
+    "reviews": 5800,
+    "ratingAvg": 4.4,
+    "downloads": 1700000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 1800 },
+      { "name": "5 star", "count": 2600 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/secureme.png",
+    "title": "SecureMe",
+    "companyName": "CyberGuard",
+    "id": 18,
+    "description": "SecureMe offers VPN, encrypted messaging, ad blocking, and anti-tracking features. It keeps your online presence private and safe no matter which network you connect to.",
+    "size": 85,
+    "reviews": 9100,
+    "ratingAvg": 4.6,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 4500 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/streamify.png",
+    "title": "Streamify",
+    "companyName": "CloudPlay",
+    "id": 19,
+    "description": "Streamify lets you watch live streams from creators, interact in chat, follow channels, and get notifications when your favorite streamers go live. Supports high resolution, multi-camera, and replay modes.",
+    "size": 112,
+    "reviews": 28000,
+    "ratingAvg": 4.2,
+    "downloads": 9000000,
+    "ratings": [
+      { "name": "1 star", "count": 2100 },
+      { "name": "2 star", "count": 1900 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 9000 },
+      { "name": "5 star", "count": 11000 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/booknest.png",
+    "title": "BookNest",
+    "companyName": "Readify",
+    "id": 20,
+    "description": "BookNest lets you read eBooks and audiobooks offline, sync across devices, highlight passages, and get personalized recommendations. Supports multiple formats and integrated dictionary.",
+    "size": 95,
+    "reviews": 6800,
+    "ratingAvg": 4.5,
+    "downloads": 2800000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 3200 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/drivepro.png",
+    "title": "DrivePro",
+    "companyName": "AutoTech",
+    "id": 21,
+    "description": "DrivePro monitors driving behavior, fuel usage, trip history, and gives safety alerts. You can view graphs of efficiency, get maintenance reminders, and share reports with insurers or friends.",
+    "size": 78,
+    "reviews": 3300,
+    "ratingAvg": 4.1,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1100 },
+      { "name": "5 star", "count": 1100 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/greenlife.png",
+    "title": "GreenLife",
+    "companyName": "EcoWorld",
+    "id": 22,
+    "description": "GreenLife helps you track your carbon footprint, set eco-friendly goals, get daily green tips, monitor energy usage, and share your progress with a community of sustainability-minded users.",
+    "size": 59,
+    "reviews": 2600,
+    "ratingAvg": 4.7,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1400 }
+    ]
+  }
+]
