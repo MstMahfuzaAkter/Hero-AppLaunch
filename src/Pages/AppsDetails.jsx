@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams } from 'react-router';
+import { Link, useParams } from 'react-router';
 import useProducts from '../hooks/useProducts';
 import { FaArrowDown } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
@@ -54,15 +54,17 @@ const AppsDetails = () => {
                             <p className="text-gray-600 text-sm">Total Reviews</p>
                             <p className="text-2xl font-bold text-gray-800">{reviews}</p>
                         </div>
+                        <Link to='/installation' className='bg-green-400  mt-5 rounded-2xl p-3 text-white'>Install Now (291 MB)</Link>
                     </div>
-                    <Link to={`/installation`} className='bg-green-400 rounded-2xl p-3 text-white'>Install Now (291 MB)</Link>
+
                 </div>
+
             </div>
-            <hr className='max-w-screen-xl mx-auto text-gray-500'/>
+            <hr className='max-w-screen-xl mx-auto text-gray-500' />
             <div className='max-w-screen-xl mx-auto'>
 
             </div>
-            <hr className='max-w-screen-xl mx-auto text-gray-500'/>
+            <hr className='max-w-screen-xl mx-auto text-gray-500' />
             <div className=' max-w-screen-xl mx-auto'>
                 <h1 className='font-semibold text-[20px]'>Description</h1>
                 <p className='text-gray-500 py-6'>{description}</p>
