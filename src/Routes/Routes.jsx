@@ -3,9 +3,9 @@ import { RouterProvider } from "react-router/dom";
 import MainLayout from "../Layouts/MainLayout";
 import ErrorPage from "../Pages/ErrorPage";
 import Home from "../Pages/Home";
-import Apps from "../Pages/Apps";
 import Installation from "../Pages/Installation";
-import AppDetails from "../Pages/AppDetails";
+import AppDetails from "../Pages/AppsDetails";
+import Apps from "../Pages/Apps";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -15,7 +15,9 @@ const router = createBrowserRouter([
     children:[
         {
             index:true,
+            // loader:()=>fetch('/data.json'),
             Component:Home,
+            
         },
         {
             path:'/apps',

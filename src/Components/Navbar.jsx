@@ -2,6 +2,9 @@ import React from 'react';
 import image from '../../assets/logo.png'
 import { Link, NavLink } from 'react-router'
 import { FaGithub } from "react-icons/fa";
+import { IoMdHome } from "react-icons/io";
+import { AiFillAppstore } from "react-icons/ai";
+import { GrInstallOption } from "react-icons/gr";
 const Navbar = () => {
     return (
         <div className='navbar bg-base-100 shadow-sm '>
@@ -39,8 +42,8 @@ const Navbar = () => {
                         </li>
                     </ul>
                 </div>
-                <div className='flex justify-center ml-15 items-center'>
-                    <img className='w-12 h-12' src={image} alt="" />
+                <div className='flex justify-center ml-1 lg:ml-15 items-center'>
+                    <img className='w-10 h-10' src={image} alt="" />
                     <Link to='/' className='text-2xl font-bold text-violet-500'>
                         HERO.IO
                     </Link>
@@ -49,17 +52,21 @@ const Navbar = () => {
             <div className='navbar-center '>
                 <ul className='menu menu-horizontal px-1 hidden lg:flex'>
                     <li>
-                        <NavLink to='/' className='text-2xl font-semibold text-violet-500' >Home</NavLink>
+
+                        <NavLink to='/' className='text-2xl font-semibold text-violet-500' ><IoMdHome />Home</NavLink>
+
+
+                    </li>
+
+                    <li>
+                        <NavLink to='/apps' className='text-2xl font-semibold'><AiFillAppstore />Apps</NavLink>
                     </li>
                     <li>
-                        <NavLink to='/apps' className='text-2xl font-semibold'>Apps</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to='/installation' className='text-2xl font-semibold'>Installation</NavLink>
+                        <NavLink to='/installation' className='text-2xl font-semibold'><GrInstallOption />Installation</NavLink>
                     </li>
                 </ul>
             </div>
-            <div className='navbar-end mr-15'>
+            <div className='navbar-end mr-1 lg:mr-15 '>
 
                 <a
                     href="https://github.com/MstMahfuzaAkter/Hero-AppLaunch"
