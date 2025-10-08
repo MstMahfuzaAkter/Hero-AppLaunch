@@ -41,7 +41,7 @@ const Home = () => {
                 </div>
                 <img src={image} alt="" className='mt-8' />
             </div>
-            <div class="bg-gradient-to-tr from-[#632EE3] to-[#9F62F2] py-8 text-white text-center">
+            <div className="bg-gradient-to-tr from-[#632EE3] to-[#9F62F2] py-8 text-white text-center">
                 <h1 className='text-[20px] lg:text-[48px]'>Trusted by Millions, Built for You</h1>
                 <div className='flex justify-around items-center gap-5'>
                     <div className='leading-tight mt-5'>
