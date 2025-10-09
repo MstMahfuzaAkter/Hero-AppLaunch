@@ -47,7 +47,7 @@ const AppsDetails = () => {
         <div>
             {/* App Details */}
             <div className="flex flex-col md:flex-row items-start gap-10 py-8 max-w-screen-xl mx-auto rounded-lg">
-                <div className="flex-shrink-0 w-full md:w-1/3 flex justify-center">
+                <div className="flex-shrink-0 w-full md:w-1/3 flex justify-left">
                     <img
                         src={image}
                         alt={title}
@@ -120,7 +120,7 @@ const AppsDetails = () => {
             </div>
 
             {/* Description */}
-            <div className="max-w-screen-xl mx-auto px-8 mt-10">
+            <div className="max-w-screen-xl mx-auto  mt-10">
                 <h2 className="font-semibold text-[20px]">Description</h2>
                 <p className="text-gray-500 py-6 leading-relaxed">{description}</p>
             </div>

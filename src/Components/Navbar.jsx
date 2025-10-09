@@ -42,7 +42,7 @@ const Navbar = () => {
                 </div>
 
                 {/* logo */}
-                <div className='flex justify-center ml-1 lg:ml-15 items-center'>
+                <div className='flex justify-center ml-1 lg:ml-30 items-center'>
                     <img className='w-10 h-10' src={image} alt="" />
                     <Link to='/' className='text-2xl font-bold text-violet-500 ml-2'>HERO.IO</Link>
                 </div>
@@ -95,7 +95,7 @@ const Navbar = () => {
             </div>
 
             {/* GitHub Button */}
-            <div className='navbar-end mr-1 lg:mr-15'>
+            <div className='navbar-end mr-1 lg:mr-25'>
                 <a
                     href="https://github.com/MstMahfuzaAkter/Hero-AppLaunch"
                     target="_blank"

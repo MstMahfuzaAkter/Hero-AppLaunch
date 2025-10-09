@@ -70,11 +70,11 @@ const Installation = () => {
                     sortedItem.map((p) => (
                         <div
                             key={p.id}
-                            className='card card-side bg-base-100 shadow border flex justify-between items-center'
+                            className='card card-side bg-base-100 shadow p-3 flex justify-between items-center'
                         >
                             <figure>
                                 <img
-                                    className='w-40 h-28 object-cover rounded-l-xl'
+                                    className='w-40 h-28 object-cover bg-gray-400 p-3 rounded-xl'
                                     src={p.image}
                                     alt={p.title || 'App Image'}
                                 />
