@@ -5,17 +5,20 @@ import image from '../../assets/hero.png';
 import { Link } from 'react-router';
 import ProductCard from '../Components/ProductCard';
 import useProducts from '../hooks/useProducts';
+import SkeletonLoader from '../Components/SkeletonLoader';
+import Fallback from './Fallback';
 const Home = () => {
     //const products = useLoaderData()
     // console.log(products);
     // const data=useProducts;
     // console.log(data);
-    
-    const{products, loading, error}=useProducts();
+
+    const { products, loading } = useProducts();
     const featuredProduct = products.slice(0, 8);
 
     return (
         <>
+        {/* <Fallback></Fallback> */}
             <div className='text-center flex flex-col justify-center items-center max-w-screen-xl mx-auto '>
                 <h1 className='font-bold text-3xl lg:text-5xl mt-8'>We Build <br /> <span className='text-violet-500'>Productive </span>Apps</h1>
                 <h1 className='text-gray-500 mt-3 text-[14px] lg:text-[20px] '>At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. Our goal is to turn your ideas into digital experiences that truly make an impact.</h1>
@@ -24,18 +27,18 @@ const Home = () => {
                         href="https://play.google.com/store/games?device=windows"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex justify-center items-center gap-3hover:bg-violet-600 border-2  rounded-sm font-bold py-2 px-4 transition duration-200"
+                        className="flex justify-center items-center gap-3hover:bg-violet-600 bg-white  rounded-sm font-bold py-2 px-4 transition duration-200"
                     >
-                        <IoLogoGooglePlaystore />
+                        <IoLogoGooglePlaystore className='text-amber-400' />
                         Google Play
                     </a>
                     <a
                         href="https://www.apple.com/app-store/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex justify-center items-center gap-3hover:bg-violet-600 border-2  rounded-sm font-bold py-2 px-4 transition duration-200"
+                        className="flex justify-center items-center gap-3hover:bg-violet-600 bg-white  rounded-sm font-bold py-2 px-4 transition duration-200"
                     >
-                        <FaAppStore />
+                        <FaAppStore  className='text-blue-400'/>
                         App Store
                     </a>
                 </div>
@@ -65,16 +68,18 @@ const Home = () => {
             <div className='text-center flex flex-col justify-center items-center max-w-screen-xl mx-auto mt-8'>
                 <h1 className='text-3xl font-bold'>Trending Apps</h1>
                 <p className='font-medium text-gray-400 mt-3'>Explore All Trending Apps on the Market developed by us</p>
-
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-8 lg:gap-4 mt-8 mb-8'>
-                    {
-                        featuredProduct.map(product => (
-                            <ProductCard key={product.id} product={product} ></ProductCard>
-                        ))
-                    }
-                </div>
-                <Link to="/apps" className='bg-gradient-to-tr from-[#632EE3] to-[#9F62F2] text-white py-1.5 px-6 rounded mb-8'>Show All</Link>
-            </div>
+                {loading ? (
+                    <SkeletonLoader/>
+                ) : (
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-8 lg:gap-4 mt-8 mb-8'>
+                        {
+                            featuredProduct.map(product => (
+                                <ProductCard key={product.id} product={product} ></ProductCard>
+                            ))
+                        }
+                    </div>)}
+                < Link to="/apps" className='bg-gradient-to-tr from-[#632EE3] to-[#9F62F2] text-white py-2 px-16 rounded-xl mb-8'>Show All</Link>
+        </div >
 
 
 

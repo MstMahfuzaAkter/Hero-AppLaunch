@@ -6,32 +6,32 @@ import Home from "../Pages/Home";
 import Installation from "../Pages/Installation";
 import AppDetails from "../Pages/AppsDetails";
 import Apps from "../Pages/Apps";
+import ErrorApp from "../Pages/ErrorApp";
 const router = createBrowserRouter([
   {
     path: "/",
-    element:<MainLayout></MainLayout>,
-    errorElement:<ErrorPage></ErrorPage>,
-    hydrateFallbackElement:<p>Loading.....</p>,
-    children:[
-        {
-            index:true,
-            // loader:()=>fetch('/data.json'),
-            Component:Home,
-            
-        },
-        {
-            path:'/apps',
-            element:<Apps></Apps>
-        },
-        {
-            path:'/installation',
-            element:<Installation></Installation>
-        },
-        {
-            path:'/apps/:id',
-            element:<AppDetails></AppDetails>
-        }
-    ]
+    element: <MainLayout />,
+    errorElement: <ErrorApp />, 
+    children: [
+      {
+        index: true,
+        element: <Home />,
+      },
+      {
+        path: '/apps',
+        element: <Apps />,
+      },
+      {
+        path: '/installation',
+        element: <Installation />,
+      },
+      {
+        path: '/apps/:id',
+        element: <AppDetails />,
+        errorElement: <ErrorPage />, 
+      },
+    ],
   },
 ]);
+
 export default router;
