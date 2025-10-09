@@ -63,7 +63,7 @@ const AppsDetails = () => {
 
                     <hr className="border-gray-300" />
 
-                    <div className="grid grid-cols-3 text-center mt-6">
+                    <div className="flex gap-8 text-center mt-6">
                         <div className="flex flex-col items-center">
                             <FaArrowDown className="text-green-600 text-2xl mb-1" />
                             <p className="text-gray-600 text-sm">Downloads</p>
@@ -91,24 +91,27 @@ const AppsDetails = () => {
                     >
                         {isInstalled ? 'Installed' : `Install Now (${size}MB)`}
                     </button>
+                    <hr className="border-gray-300" />
                 </div>
             </div>
 
             {/* Rating */}
+
             <div className="bg-white rounded-xl p-6 shadow-md max-w-screen-xl mx-auto ">
                 <h1 className='text-xl'>Rating</h1>
                 <ResponsiveContainer width="100%" height={300}>
                     <BarChart
-                        data={ratings}
+                        data={[...ratings].sort((a, b) => b.name[0] - a.name[0])}
                         layout="vertical"
-                        margin={{ top: 10, right: 30, left: 0, bottom: 5 }}
-                    >
+                        barCategoryGap={20} 
+                        barSize={14}
+                        margin={{ top: 10, right: 30, left: 0, bottom: 5 }} >
                         <CartesianGrid strokeDasharray="3 2" />
                         <XAxis type="number" />
                         <YAxis dataKey="name" type="category" />
                         <Tooltip />
                         <Bar dataKey="count" radius={[0, 8, 8, 0]}>
-                            {ratings.map((entry, index) => (
+                            {[...ratings].sort((a, b) => b.name[0] - a.name[0]).map((entry, index) => (
                                 <Cell key={`cell-${index}`} fill={barColors[index % barColors.length]} />
                             ))}
                         </Bar>

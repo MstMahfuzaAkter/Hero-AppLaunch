@@ -15,10 +15,7 @@ const Navbar = () => {
     };
 
     if (loading) {
-        return (
-            <Fallback />
-
-        );
+        return <Fallback />;
     }
 
     return (
@@ -38,26 +35,66 @@ const Navbar = () => {
                         </svg>
                     </div>
                     <ul tabIndex={0} className='menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow'>
-                        <li><NavLink to='/' onClick={handleClick} className='text-2xl font-semibold text-violet-500'>Home</NavLink></li>
-                        <li><NavLink to='/apps' onClick={handleClick} className='text-2xl font-semibold'>Apps</NavLink></li>
-                        <li><NavLink to='/installation' onClick={handleClick} className='text-2xl font-semibold'>Installation</NavLink></li>
+                        <li><NavLink to='/' onClick={handleClick} className={({ isActive }) => isActive ? "text-2xl font-semibold text-violet-600 border-b-2 border-violet-600" : "text-2xl font-semibold"}>Home</NavLink></li>
+                        <li><NavLink to='/apps' onClick={handleClick} className={({ isActive }) => isActive ? "text-2xl font-semibold text-violet-600 border-b-2 border-violet-600" : "text-2xl font-semibold"}>Apps</NavLink></li>
+                        <li><NavLink to='/installation' onClick={handleClick} className={({ isActive }) => isActive ? "text-2xl font-semibold text-violet-600 border-b-2 border-violet-600" : "text-2xl font-semibold"}>Installation</NavLink></li>
                     </ul>
                 </div>
+
                 {/* logo */}
                 <div className='flex justify-center ml-1 lg:ml-15 items-center'>
                     <img className='w-10 h-10' src={image} alt="" />
-                    <Link to='/' className='text-2xl font-bold text-violet-500'>HERO.IO</Link>
+                    <Link to='/' className='text-2xl font-bold text-violet-500 ml-2'>HERO.IO</Link>
                 </div>
             </div>
 
+            {/* Desktop Menu */}
             <div className='navbar-center'>
-                <ul className='menu menu-horizontal px-1 hidden lg:flex'>
-                    <li><NavLink to='/' onClick={handleClick} className='text-2xl font-semibold text-violet-500'><IoMdHome /> Home</NavLink></li>
-                    <li><NavLink to='/apps' onClick={handleClick} className='text-2xl font-semibold'><FaAppStore /> Apps</NavLink></li>
-                    <li><NavLink to='/installation' onClick={handleClick} className='text-2xl font-semibold'><GrInstallOption /> Installation</NavLink></li>
+                <ul className='menu menu-horizontal px-1 hidden lg:flex gap-4'>
+                    <li>
+                        <NavLink to='/' onClick={handleClick} className={({ isActive }) =>
+                            `text-xl font-semibold flex items-center gap-2 pb-1 transition duration-200 ${isActive
+                                ? "text-violet-600 border-b-2 border-violet-600"
+                                : "hover:text-violet-500"
+                            }`
+                        }
+                        > <IoMdHome /> Home
+                        </NavLink>
+                    </li>
+
+                    <li>
+                        <NavLink
+                            to='/apps'
+                            onClick={handleClick}
+                            className={({ isActive }) =>
+                                `text-xl font-semibold flex items-center gap-2 pb-1 transition duration-200 ${isActive
+                                    ? "text-violet-600 border-b-2 border-violet-600"
+                                    : "hover:text-violet-500"
+                                }`
+                            }
+                        >
+                            <FaAppStore /> Apps
+                        </NavLink>
+                    </li>
+
+                    <li>
+                        <NavLink
+                            to='/installation'
+                            onClick={handleClick}
+                            className={({ isActive }) =>
+                                `text-xl font-semibold flex items-center gap-2 pb-1 transition duration-200 ${isActive
+                                    ? "text-violet-600 border-b-2 border-violet-600"
+                                    : "hover:text-violet-500"
+                                }`
+                            }
+                        >
+                            <GrInstallOption /> Installation
+                        </NavLink>
+                    </li>
                 </ul>
             </div>
 
+            {/* GitHub Button */}
             <div className='navbar-end mr-1 lg:mr-15'>
                 <a
                     href="https://github.com/MstMahfuzaAkter/Hero-AppLaunch"
